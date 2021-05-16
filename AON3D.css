@@ -40,16 +40,12 @@ body{
         color: #fff;
     }
 
-    .navbars{
-        float:right;
-    }
-
     .btn{
         float: left;
     }
 
     footer.nb-footer {
-    background: #222;
+    background-image: url(https://t4.ftcdn.net/jpg/01/30/41/43/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg);
     border-top: 4px solid #b78c33; 
     }
 
@@ -64,26 +60,10 @@ body{
     color: #999;
     margin-top: 30px; }
 
-    footer.nb-footer .about .social-media {
-    margin-top: 15px; }
-
-    footer.nb-footer .about .social-media ul li a {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #b78c33;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
-
     footer.nb-footer .about .social-media ul li a:hover {
     background: #b78c33;
     color: #fff;
-    border-color: #b78c33; }
-
-    footer.nb-footer .footer-info-single {
-    margin-top: 30px; }
+    }
 
     footer.nb-footer .footer-info-single .title {
     color: #fff;
@@ -118,7 +98,16 @@ body{
     padding: 0;
     color: #fff; 
 }
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 600px) {
+        body {
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
         body {
         width: auto;
         height: auto;
