@@ -1,0 +1,117 @@
+body{
+    background-color: #111;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 16px 32px;
+    clear: both;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+}
+    .navbar{
+        justify-content: space-between;
+    }
+    .card :hover{
+        background-color: darkblue;
+    }
+
+    .dropdown-item:hover{
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn{
+        float: left;
+    }
+
+    footer.nb-footer {
+    background-image: url(https://t4.ftcdn.net/jpg/01/30/41/43/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg);
+    border-top: 4px solid #b78c33; 
+    }
+
+    footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center; }
+
+    footer.nb-footer .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px; }
+
+    footer.nb-footer .about .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    }
+
+    footer.nb-footer .footer-info-single .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 5px; }
+
+    footer.nb-footer .footer-info-single ul li a {
+    display: block;
+    color: #fff;
+    padding: 2px 0; 
+    text-decoration: none;
+}
+
+    footer.nb-footer .footer-info-single ul li a:hover {
+    color: #b78c33; }
+
+    footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff; }
+
+    footer.nb-footer .copyright {
+    margin-top: 15px;
+    background: #111;
+    padding: 7px 0;
+    color: #999; }
+
+    footer.nb-footer .copyright p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+}
+    @media screen and (min-width: 600px) {
+        body {
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        body {
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        }
+    }
